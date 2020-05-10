@@ -1,0 +1,22 @@
+html{
+  background-color: black;
+}
+#monster_name{
+  color: blue;
+  text-align: center;
+}
+.monster{
+  float:left;
+}
+#message{
+  color: white;
+}
+#hint{
+  color: white;
+}
+.redText{
+  color: red;
+}
+.whiteText{
+  color: white;
+}

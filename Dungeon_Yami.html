@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Dungeon.css">
+  <title>最終課題</title>
+  <script src="Dungeon_Yami.js"></script>
+</head>
+
+<body>
+  <h1 id="monster_name">魔獣</h1>
+  <img class="monster" src="monster.png" style="width:600px;height:600px;">
+
+  <p1 id="message3">
+    よく来たな勇者（仮）よ。
+  </p1>
+  <br>
+  <div>
+    <p>
+      <input type="button" value="逃げる" onclick="escape3();">
+      <input type="button" value="正体を探る" onclick="inspect3();"></p>
+    <input type="text" id="name3" value="正体を入力">
+    <input type="button" value="正体を暴く" onclick="expose3();">
+    <text>制限時間<span id="time" class="redText"></span></text>
+  </div>
+
+  <div>
+    <p2 id="hint3">秘文字</p2>
+  </div>
+  
+  <img class="list" src="list.png" style="width:600px;height:300px;">
+  <p2>
+    <br>
+    このゲームは、UTF-8のASCIIコードが１６進数で文字コード化されている魔物たちの名前をを当てるゲームです。<br>
+    「正体を探る」ボタンを押すと、「秘文字」の欄が１６進数の文字コードに変わるので、それを解読しましょう！<br>
+    解読したら「正体を入力」欄に答えを入力し、「正体を暴く」を押しましょう！<br>
+    ただし、制限時間内に解読できない、または間違えてしまうと、エネミーの攻撃を受けてしまいます。<br>
+  </p2>
+
+</body>
+
+</html>
