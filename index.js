@@ -3,6 +3,8 @@ window.addEventListener("DOMContentLoaded", init);
 function init () {
   yami = document.getElementById("yamischool");
   yami.addEventListener("mouseover", showYami);
+  fire = document.getElementById("fireschool");
+  fire.addEventListener("mouseover", showFire);
 }
 
 function LOLA() {
@@ -20,8 +22,7 @@ function loadYami () {
 }
 
 function loadFire () {
-  window.location.href = "Dungeon_Efunction loadYami () {
-    window.location.href = "Dungeon_Fire.html";
+  window.location.href = "Dungeon_Fire.html";
   alert("炎の仮校舎に来てしまった！！");
 }
 
@@ -32,7 +33,7 @@ function showYami() {
                       なぜ’闇’の文字がついているのかというと。。。秘密である。";
 }
 
-function showYami() {
+function showFire() {
   des = document.getElementById("description");
   des.textContent = "かつて存在したといわれる幻の校舎。\n\
                       その姿を知る者は数多く存在する人類の中でもごく一部といわれる。\n\
